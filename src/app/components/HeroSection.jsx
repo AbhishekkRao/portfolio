@@ -15,7 +15,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
@@ -27,6 +27,8 @@ const HeroSection = () => {
                 "Web Developer",
                 1000,
                 "Graphic Designer",
+                1000,
+                "Freelancer",
                 1000,
                 "UI/UX Designer",
                 1000,
@@ -45,7 +47,7 @@ const HeroSection = () => {
               href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
-              Hire Me
+              Hire Me!
             </Link>
             <Link
               href="/Abhishek_Komarraju_CV.pdf"
@@ -68,7 +70,7 @@ const HeroSection = () => {
             <Image
               src="/images/avatar.png"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
             />
